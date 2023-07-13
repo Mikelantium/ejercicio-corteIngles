@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #f7f7f7;
+}
+.header .nav {
+  height: 60px;
+  padding: 20px;
+  margin: auto 150px;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(114, 114, 114);
+}
+.header .nav-ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  gap: 12px;
+}
+.header .subBar {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+}
+.header .subBar button {
+  background-color: white;
+  border: none;
+  font-size: 15px;
+  padding: 17.8px;
+}
+.header .subBar .button-menu {
+  background-color: #67b500;
+}
+
+.main {
+  background-color: #F7F7F7;
+  display: flex;
+  justify-content: center;
+}
+.main-menu {
+  display: flex;
+  padding: 20px;
+  gap: 70px;
+  flex-direction: row;
+}
+.main-menu button {
+  border: none;
+  font-size: 17px;
+  background-color: #67b500;
+  padding: 7px;
+  color: aliceblue;
+  border-radius: 5px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+footer-info {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+}
+footer li {
+  list-style: none;
+  text-align: center;
+  margin: 0px;
+}
+footer h4 {
+  color: #67b500;
+  text-align: center;
+}
+footer .footer-countries {
+  display: flex;
+}
+
+.packs {
+  flex-wrap: wrap;
+  display: flex;
+  background-color: #f7f7f7;
+  justify-content: center;
+  gap: 200px;
+  padding-bottom: 50px;
+}
+.packs-info {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 7px;
+}
+.packs-info-text {
+  padding-top: 7px;
+  padding-left: 5px;
+}
+.packs-info-text p {
+  width: 450px;
+}
+.packs .price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 7px;
+  width: -webkit-fill-available;
+  margin-top: 90px;
+}
+.packs .price button {
+  background-color: transparent;
+  border-color: #67b500;
+  color: #67b500;
+  border-radius: 4px;
+  border-style: solid;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.packs .price-info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5px;
+}
+.packs .price-info h3 {
+  color: #67b500;
+}
+.packs img {
+  height: 150px;
+  width: 100%;
+}
+.packs .ofertas {
+  background-color: white;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+.packs .icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.packs .icon p {
+  font-size: 12px;
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */

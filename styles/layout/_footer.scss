@@ -1,0 +1,29 @@
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+
+    &-info{
+        display:flex;
+        flex-direction: column;
+        width: 15%;
+    }
+
+    li{
+        list-style: none;
+        text-align: center;
+        margin: 0px;
+    }
+
+    h4{
+        color: #67b500;
+        text-align: center;
+    }
+
+    .footer-countries {
+        display: flex;
+    }
+}
+
+
+
