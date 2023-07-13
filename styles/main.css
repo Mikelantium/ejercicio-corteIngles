@@ -92,6 +92,7 @@ footer .footer-countries {
   display: flex;
   flex-direction: column;
   padding: 7px;
+  width: 35%;
 }
 .packs-info-text {
   padding-top: 7px;
@@ -125,12 +126,13 @@ footer .footer-countries {
   color: #67b500;
 }
 .packs img {
-  height: 150px;
+  height: 100%;
   width: 100%;
 }
 .packs .ofertas {
   background-color: white;
   padding: -10px -20px;
+  margin: auto 150px;
 }
 .packs .icon {
   display: flex;
