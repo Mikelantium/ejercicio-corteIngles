@@ -84,7 +84,7 @@ footer .footer-countries {
   display: flex;
   background-color: #f7f7f7;
   justify-content: center;
-  gap: 200px;
+  gap: 100px;
   padding-bottom: 50px;
 }
 .packs-info {
@@ -104,7 +104,6 @@ footer .footer-countries {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 7px;
   width: -webkit-fill-available;
   margin-top: 90px;
 }
@@ -131,14 +130,17 @@ footer .footer-countries {
 }
 .packs .ofertas {
   background-color: white;
-  padding: 10px 20px;
-  margin-top: 20px;
+  padding: -10px -20px;
 }
 .packs .icon {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.packs .icon img {
+  height: 50px;
+  width: 50px;
 }
 .packs .icon p {
   font-size: 12px;

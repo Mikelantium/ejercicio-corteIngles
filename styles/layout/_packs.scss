@@ -3,7 +3,7 @@
     display: flex;
     background-color: #f7f7f7;
     justify-content: center;
-    gap: 200px;
+    gap: 100px;
     padding-bottom: 50px;
 
     &-info{
@@ -25,7 +25,6 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin: 7px;
         width: -webkit-fill-available;
         margin-top: 90px;
     
@@ -57,8 +56,7 @@
 
     .ofertas{
         background-color: white;
-        padding: 10px 20px;
-        margin-top: 20px ;
+        padding: -10px -20px;
     }
 
     .icon{
@@ -66,6 +64,11 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
+        img {
+            height: 50px;
+            width: 50px; 
+        }
         
         p{
             font-size: 12px;
